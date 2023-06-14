@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <title>BurgerWeb</title>
+    <style>
+        *{
+            font-family:'Times New Roman', Times, serif!important;
+        }
+        .para1,
+        .para2 {
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-white shadow fixed-top p-0">
+        <div class="container-fluid d-flex justify-content-between">
+            <a class="navbar-brand" href="#home"><img src="burgerlogo.png" alt="" width="100px" height="45px"></a>
+            <ul class="navbar-nav d-none d-sm-flex">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid p-0 pb-1 mb-5" id="home">
+        <img src="food1hamburger.jpg" alt="" class="w-100">
+    </div>
+    <div class="container">
+        <div class="row pt-4 pb-5 mb-5" id="about">
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <img src="food2tablesetting.jpg" alt="" width="500px" height="630px" class="d-none d-md-block w-100 mx-auto opacity-75 px-4">
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <p class="h1 text-dark text-center pt-3 pb-4 mb-3">About Catering</p>
+                <p class="text-dark text-center my-2 pt-2 pb-3">Tradition since 1889</p>
+                <p class="text-dark para1 px-4">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit
+                    amet, consectetur adipiscing
+                    elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur.We only use seasonal ingredients.</p>
+                <p class="text-muted para2 px-4">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est
+                    laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.</p>
+            </div>
+
+        </div>
+        <hr>
+        <div class="row py-5 my-5 px-4" id="menu">
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <p class="h1 text-center pt-2 pb-4 mt-1 mb-4">Our Menu</p>
+                <p class="h4 text-black pb-2">Bread Basket</p>
+                <p class="text-muted pb-4 mb-4">Assortment of fresh baked fruit breads and muffins 5.50</p>
+                <p class="h4 text-black pb-2">Honey Almond Granola with Fruits</p>
+                <p class="text-muted pb-4 mb-4">Natural cereal of honey toasted oats, raisins, almonds and dates
+                    7.00</p>
+                <p class="h4 text-black pb-2">Belgian Waffle</p>
+                <p class="text-muted pb-4 mb-4">Vanilla flavored batter with malted flour 7.50</p>
+                <p class="h4 text-black pb-2">Scrambled eggs</p>
+                <p class="text-muted pb-4 mb-4">Scrambled eggs, roasted red pepper and garlic, with green onions
+                    7.50</p>
+                <p class="h4 text-black pb-2">Blueberry Pancakes</p>
+                <p class="text-muted pb-4 mb-4">With syrup, butter and lots of berries 8.50</p>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <img src="food3tablesetting.jpg" alt="" class="d-block mx-auto w-100 opacity-75 px-4">
+            </div>
+        </div>
+        <hr>
+        <div class="row py-5 my-5 px-4" id="contact">
+            <div class="col-sm-12">
+                <p class="h1 text-black pb-5 mb-1">Contact Us</p>
+                <p class="pb-1">We offer full-service catering for any event, large or small. We understand your needs
+                    and
+                    we will cater
+                    the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to
+                    contact
+                    us.</p>
+                <p class="text-muted fw-bolder pb-1">Catering Service, 42nd Living St, 43043 New York, NY</p>
+                <p class="pb-3">You can also contact us by phone 00553123-2323 or email catering@catering.com, or you
+                    can send us a
+                    message here:</p>
+                <form>
+                    <div class="my-3">
+                        <input type="text" class="form-control border-0 rounded-0 border-bottom text-muted py-3 px-0"
+                            id="nameControl" name="name" placeholder="Name">
+                    </div>
+                    <div class="my-3">
+                        <input type="text" class="form-control border-0 rounded-0 border-bottom text-muted py-3 px-0"
+                            id="peopleControl" name="name" placeholder="How many people?">
+                    </div>
+                    <div class="my-3">
+                        <input type="datetime-local" value="2022-09-16T15:30" class="form-control border-0 rounded-0 border-bottom text-muted py-3 px-0">
+                    </div>
+                    <div class="my-3">
+                        <input type="text" class="form-control border-0 rounded-0 border-bottom text-muted py-3 px-0"
+                            id="messageControl" name="name" placeholder="Message\Special requirement">
+                    </div>
+                    <button type="button" class="btn bg-secondary rounded-0">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-0">
+        <footer class="col-sm bg-secondary opacity-50">
+            <p class="text-white w-25 mx-auto py-5 m-0 text-center">Powerby<a href="#" class="text-white">w3.css</a></p>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+.info{
+    word-break: break-all;
+}
+.modalHead{
+    letter-spacing: 2px;
+}
+.headerBg{
+    background:#009688 !important ;
+}
+.closeButton{
+    background: #f44336 !important;
+}
